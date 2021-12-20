@@ -7,7 +7,7 @@ const MainNavigation = () => {
     return (
        <nav className={styles.nav}>
            <ul>
-           <li><NavLink exact to="">React</NavLink></li>
+           <li><NavLink exact to="">bookmyfood</NavLink></li>
            <li><NavLink exact to="/my-cart"><CartButton/></NavLink></li>
            </ul>
        </nav>
